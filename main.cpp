@@ -19,7 +19,7 @@ string encrypt(const string& text) {
 int main() {
     string text;
     cout << "Enter text to encrypt: \n";
-    getline(std::cin, text);
+    getline(cin, text);
 
 
     string encrypted = encrypt(text);
